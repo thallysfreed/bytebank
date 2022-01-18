@@ -20,7 +20,7 @@ fun main() {
     println("nome ${asus.nome}")
     println("cpf ${asus.cpf}")
     println("salario ${asus.salario}")
-    println("bonificação ${asus.bonificacao()}")
+    println("bonificação ${asus.bonificacao}")
     if(asus.autentica(1234)){
         println("autenticou com sucesso")
     } else {
@@ -38,7 +38,7 @@ fun main() {
     println("nome ${intel.nome}")
     println("cpf ${intel.cpf}")
     println("salario ${intel.salario}")
-    println("bonificação ${intel.bonificacao()}")
+    println("bonificação ${intel.bonificacao}")
     println("plr ${intel.plr}")
 
     if(asus.autentica(1234)){
